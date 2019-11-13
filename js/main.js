@@ -9,7 +9,7 @@ function open (){
   nav.style.transition = 'right 2s ease-in-out';
 }
 function close(){
-  nav.style.right = '-2000px';
+  nav.style.right = '-100%';
 }
 
 menuBtn.addEventListener('click', open);
